@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head><link rel="stylesheet" type="text/css" href="/assets/_default.page.client.b1f4ea58.css">
+        <meta charset="UTF-8" />
+        <title>Personas &amp; Storyboarding</title>
+        <meta name="description" content="This site was built as part of an assignment for Brown CSCI 1300." />
+        <meta name="keywords" content="UI, UX, CS 1300, CSCI 1300, Brown University, Providence" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
+      <body>
+        <div id="root"><div id="page"><main>
+<!-- -->
+<h1>Personas &amp; Storyboarding</h1>
+<h2>Introduction</h2>
+<blockquote>
+<p><em>This writeup was completed as part of an assignment on gathering real users&#x27; experiences with interfaces.</em></p>
+</blockquote>
+<p>To explore the use of <strong>personas</strong> and <strong>storyboarding</strong> in UX research, I chose to investigate how CS TAs use Gradescope for grading.</p>
+<h2>The Interface</h2>
+<p><a href="https://en.wikipedia.org/wiki/Gradescope" target="_blank" rel="noopener noreferrer">Gradescope</a> is a website used to administer coursework. It allows instructors to set up assignments—comprising questions and rubrics with point values—and collect student submissions. TAs can then view and grade these submissions.</p>
+<figure class="image-wrapper"><div class="image-grid" style="--target-width:100%"><a href="/personas-storyboarding/gradescope-ui-grading.png" target="_blank" rel="noopener noreferrer"><img src="/personas-storyboarding/gradescope-ui-grading.png" alt="Gradescope&#x27;s grading dashboard interface"/></a><a href="/personas-storyboarding/gradescope-ui-question.png" target="_blank" rel="noopener noreferrer"><img src="/personas-storyboarding/gradescope-ui-question.png" alt="Gradescope&#x27;s question grading interface"/></a></div><figcaption><p>Sketches of Gradescope&#x27;s main grading interfaces.</p><p>Key interactive elements have been exaggerated and emphasized (in orange).</p></figcaption></figure>
+<p>Pictured in the images above are the main <strong>interfaces</strong> which a TA might interact with during grading. In particular, the second image shows a screen which allows TAs to score students&#x27; submissions on a <em>per-question</em> basis, checking rubric items to add or subtract points from the submission.</p>
+<p>Not pictured are the numerous <strong>keyboard shortcuts</strong> which can be used to perform the same tasks as most of these UI elements.</p>
+<h2>Observations</h2>
+<p>To begin to develop my personas, I watched 10 TAs grade assignments using Gradescope—some in a group setting, and others by themselves. Here&#x27;s what I observed:</p>
+<ul>
+<li>There was a 50-50 split between TAs who graded <strong>question-by-question</strong>, and TAs who graded <strong>submission-by-submission</strong>. This split was along course lines.</li>
+<li>Most users clicked on <strong>visible UI elements</strong> to navigate, instead of using <strong>keyboard shortcuts</strong>. However, almost all users used keyboard shortcuts to check rubric items.</li>
+<li>Users rarely had to <strong>navigate to a previous submission</strong>; but when they did, especially when several TAs were grading in parallel, they took a long time to do so.</li>
+</ul>
+<p>I also interviewed 3 of the 10 TAs after they were done grading. Summaries of their responses are listed below:</p>
+<ol>
+<li><strong>How <em>experienced</em> are you in using Gradescope as a TA?</strong>
+<ul>
+<li>Users A and B were relatively inexperienced, while User C was fairly experienced. Both users B and C had used Gradescope to set up assignments for their courses.</li>
+</ul>
+</li>
+<li><strong>What was your <em>goal</em> in using Gradescope?</strong>
+<ul>
+<li>All three users used it to grade students&#x27; work and to check off students at labs. User B, a HTA, spoke about using it to grade &quot;in an unbiased way, anonymously&quot;. User C just wanted to be done with grading, and this was faster than grading by hand.</li>
+</ul>
+</li>
+<li><strong>Which <em>specific part(s)</em> of its interface did you use to attempt to achieve that goal?</strong>
+<ul>
+<li>Everyone mentioned the <code>Manage Submissions</code> and <code>Grade Submissions</code> tabs. User A described hitting <code>z</code> (<code>Next Ungraded</code>), then <code>1</code> (the first rubric item), to &quot;lock&quot; the assignment when grading in parallel with other TAs. User C also brought up a hidden <code>Submissions</code> button, accessible by hovering over a question title, which gave an overview of all grades for one question.</li>
+</ul>
+</li>
+<li><strong>Could you describe one or more ways in which Gradescope&#x27;s UI <em>helped</em> or <em>hindered</em> your work?</strong>
+<ul>
+<li>Users A and B complained that it was &quot;sliced the wrong way&quot;: it was &quot;meant for&quot; grading one question, not one submission, at a time. All three appreciated the keyboard shortcuts for efficient grading. User A again raised the multiple-TAs-grading-at-once concurrency issue.</li>
+</ul>
+</li>
+<li><strong>If you could <em>change anything about Gradescope</em> to improve your user <em>experience</em>, what would it be?</strong>
+<ul>
+<li>Users A and B would add more settings for assignments: to mitigate the concurrency problem, and to make them per-submission, rather than per-question. User C, meanwhile, would implement more secret keyboard shortcuts, for fun.</li>
+</ul>
+</li>
+</ol>
+<h2>Personas</h2>
+<p>Based on my findings, I constructed two <strong>personas</strong> to broadly represent the users I observed.</p>
+<h3>Adept Alice</h3>
+<p>Adept Alice is representative of a TA who&#x27;s been around the block a few times, and is familiar with working around Gradescope&#x27;s many quirks.</p>
+<p>Her main gripe with Gradescope is that its system image doesn&#x27;t mesh with her task of grading submissions one-by-one—its UI actively promotes a different mental model, and an incompatible mode of operation. She&#x27;s also peeved that there isn&#x27;t a built-in way to prevent multiple TAs from accidentally grading the same submission, but has long since learned to work around it.</p>
+<p>She represents parts of users A and C, but also the select few TAs I observed who primarily used keyboard shortcuts to navigate.</p>
+<figure class="image-wrapper"><div class="image-grid" style="--target-width:100%"><a href="/personas-storyboarding/persona-a.png" target="_blank" rel="noopener noreferrer"><img src="/personas-storyboarding/persona-a.png" alt="An empathy map depicting what Adept Alice, an archetypal user of Gradescope, thinks, feels, says, and does."/></a></div><figcaption><p>An empathy map depicting what <strong>Adept Alice</strong>, an archetypal user of Gradescope, thinks, feels, says, and does.</p></figcaption></figure>
+<h3>Beginner Bob</h3>
+<p>Beginner Bob is representative of a TA who&#x27;s new to grading and the processes it involves.</p>
+<p>Due to his inexperience, he is unfamiliar with Gradescope&#x27;s hidden elements, such as buttons that don&#x27;t appear until you hover over them, and the many keyboard shortcuts which could improve his efficiency. Bob tends to grade slower, as merely navigating its many screens is a more effortful task for him than it is for Alice. This is exacerbated by the <em>many</em> steps which he must take to do something like returning to submissions that he&#x27;d previously graded.</p>
+<p>He represents parts of users A and B, as well as some of the TAs I observed who had difficulty with navigation.</p>
+<figure class="image-wrapper"><div class="image-grid" style="--target-width:100%"><a href="/personas-storyboarding/persona-b.png" target="_blank" rel="noopener noreferrer"><img src="/personas-storyboarding/persona-b.png" alt="An empathy map depicting what Beginner Bob, an archetypal user of Gradescope, thinks, feels, says, and does."/></a></div><figcaption><p>An empathy map depicting what <strong>Beginner Bob</strong>, an archetypal user of Gradescope, thinks, feels, says, and does.</p></figcaption></figure>
+<h2>Storyboard</h2>
+<p>Based on my findings from earlier, I created this storyboard to illustrate a typical grading session for Beginner Bob:</p>
+<figure class="image-wrapper"><div class="image-grid" style="--target-width:100%"><a href="/personas-storyboarding/storyboard.png" target="_blank" rel="noopener noreferrer"><img src="/personas-storyboarding/storyboard.png" alt="A storyboard depicting Beginner Bob&#x27;s pain points while using Gradescope."/></a></div></figure>
+<p>Grading is <em>hard</em>. Perhaps we could crowdsource it on a non-Gradescope platform, instead!</p>
+<h2>Conclusion</h2>
+<p>This exercise, though small, reminded me of the value of collecting observations and user interviews for identifying the strengths and weaknesses of user interfaces.</p>
+<p>If I were to do this again for something like a personal website, I&#x27;d expand the scope of data collection by watching and interviewing a wider gamut of users. Hopefully, that would provide me with a more complete distribution of the users who&#x27;d interact with my UIs!</p>
+<hr/>
+<p><a href="#page">Back to top</a></p></main></div></div>
+      <script id="vite-plugin-ssr_pageContext" type="application/json">{"pageContext":{"_pageId":"/pages/personas-storyboarding","pageProps":"!undefined"}}</script><script type="module" src="/assets/entry-client-routing.ebb75ad8.js" async></script><link rel="modulepreload" as="script" type="text/javascript" href="/assets/pages/personas-storyboarding.page.c4a3be69.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/chunk-f4b53398.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/renderer/_default.page.client.ee4c0efa.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/entry-client-routing.ebb75ad8.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/chunk-872a159d.js"></body>
+    </html>
