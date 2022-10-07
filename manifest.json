@@ -18,8 +18,17 @@
     ]
   },
   "pages/personas-storyboarding.page.mdx": {
-    "file": "assets/pages/personas-storyboarding.page.c4a3be69.js",
+    "file": "assets/pages/personas-storyboarding.page.bd5b94e2.js",
     "src": "pages/personas-storyboarding.page.mdx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-f4b53398.js"
+    ]
+  },
+  "pages/responsive-redesign.page.mdx": {
+    "file": "assets/pages/responsive-redesign.page.2e1a95b4.js",
+    "src": "pages/responsive-redesign.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -39,38 +48,40 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.ebb75ad8.js",
+    "file": "assets/entry-client-routing.ba04e64f.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-872a159d.js"
+      "_chunk-f75f21bc.js"
     ],
     "dynamicImports": [
       "pages/index.page.mdx",
       "pages/me.page.mdx",
       "pages/personas-storyboarding.page.mdx",
+      "pages/responsive-redesign.page.mdx",
       "renderer/_default.page.client.tsx"
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.73ecb482.js",
+    "file": "assets/entry-server-routing.529cac1a.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-872a159d.js"
+      "_chunk-f75f21bc.js"
     ],
     "dynamicImports": [
       "pages/index.page.mdx",
       "pages/me.page.mdx",
       "pages/personas-storyboarding.page.mdx",
+      "pages/responsive-redesign.page.mdx",
       "renderer/_default.page.client.tsx"
     ]
   },
   "_chunk-f4b53398.js": {
     "file": "assets/chunk-f4b53398.js"
   },
-  "_chunk-872a159d.js": {
-    "file": "assets/chunk-872a159d.js"
+  "_chunk-f75f21bc.js": {
+    "file": "assets/chunk-f75f21bc.js"
   },
   "renderer/_default.page.client.css": {
     "file": "assets/_default.page.client.b1f4ea58.css",
