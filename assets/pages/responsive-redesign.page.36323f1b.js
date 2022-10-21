@@ -1,4 +1,4 @@
-import{j as i,a as n}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const a={title:"Responsive Redesign"};function s(t){const e=Object.assign({main:"main",h1:"h1",a:"a",h2:"h2",p:"p",strong:"strong",ol:"ol",li:"li",ul:"ul",code:"code",em:"em",h3:"h3"},t.components);return n(e.main,{children:[`
+import{j as i,a as n}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const a={title:"Responsive Redesign"};function s(t){const e=Object.assign({main:"main",h1:"h1",a:"a",h2:"h2",p:"p",strong:"strong",ol:"ol",li:"li",ul:"ul",code:"code",em:"em",h3:"h3",hr:"hr"},t.components);return n(e.main,{children:[`
 `,`
 `,i(e.h1,{id:"responsive-redesign",children:i(e.a,{href:"#responsive-redesign",children:"Responsive Redesign"})}),`
 `,i(e.h2,{id:"introduction",children:i(e.a,{href:"#introduction",children:"Introduction"})}),`
@@ -108,6 +108,6 @@ import{j as i,a as n}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8
 `,i(r,{images:[{src:"/responsive-redesign/final-website.png",alt:"My newly-responsive, redesigned website."}],style:{"--border":"1px solid var(--edge-color)"},children:n(e.p,{children:[i(e.strong,{children:"Figure 13:"})," My newly-responsive, redesigned website."]})}),`
 `,i(e.h2,{id:"conclusion",children:i(e.a,{href:"#conclusion",children:"Conclusion"})}),`
 `,n(e.p,{children:["This project was, frankly, really time-consuming! The workflow I've described above, while useful for larger-scale redesigns, is probably ",i(e.em,{children:"overkill"})," for as small an assignment as this one."]}),`
-`,n(e.p,{children:["That said, I got to practice my ",i(e.strong,{children:"usability analysis"})," and ",i(e.strong,{children:"iterative design"})," skills, so it wasn't a total loss. I also have a far greater appreciation for the value of taking time to identify current flaws, so as to devise more ",i(e.strong,{children:"targeted improvements"}),"."]}),`
-`,i(e.p,{children:"Here's hoping that what I've learned will lead to better-designed websites in my future!"}),`
+`,n(e.p,{children:["That said, I got to practice my ",i(e.strong,{children:"usability analysis"})," and ",i(e.strong,{children:"iterative design"})," skills, so it wasn't a total loss. I also have a far greater appreciation for the value of taking time to identify current flaws, so as to devise more ",i(e.strong,{children:"targeted improvements"}),". In all, this was a decently worthwhile exercise; and hopefully it'll help me design better websites in the future!"]}),`
+`,i(e.hr,{}),`
 `,i(e.p,{children:i(e.a,{href:"#page",children:"Back to top"})})]})}function d(t={}){const{wrapper:e}=t.components||{};return e?i(e,Object.assign({},t,{children:i(s,t)})):s(t)}export{d as default,a as documentProps};

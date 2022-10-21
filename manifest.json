@@ -28,7 +28,7 @@
     ]
   },
   "pages/responsive-redesign.page.mdx": {
-    "file": "assets/pages/responsive-redesign.page.08a5bc2b.js",
+    "file": "assets/pages/responsive-redesign.page.36323f1b.js",
     "src": "pages/responsive-redesign.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -62,7 +62,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.bde1d3ba.js",
+    "file": "assets/entry-client-routing.cd960053.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -78,7 +78,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.12dc7148.js",
+    "file": "assets/entry-server-routing.3dbb7b9d.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
