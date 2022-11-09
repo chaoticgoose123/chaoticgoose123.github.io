@@ -9,7 +9,7 @@
     ]
   },
   "pages/iterative-design.page.mdx": {
-    "file": "assets/pages/iterative-design.page.a61b8447.js",
+    "file": "assets/pages/iterative-design.page.1edc8e99.js",
     "src": "pages/iterative-design.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -72,7 +72,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.151a7802.js",
+    "file": "assets/entry-client-routing.1c760c40.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -89,7 +89,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.44d81170.js",
+    "file": "assets/entry-server-routing.75bc32b3.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
