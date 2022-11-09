@@ -8,6 +8,16 @@
       "_chunk-f4b53398.js"
     ]
   },
+  "pages/iterative-design.page.mdx": {
+    "file": "assets/pages/iterative-design.page.a61b8447.js",
+    "src": "pages/iterative-design.page.mdx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-f4b53398.js",
+      "_chunk-f2b8c439.js"
+    ]
+  },
   "pages/me.page.mdx": {
     "file": "assets/pages/me.page.47bfcbc5.js",
     "src": "pages/me.page.mdx",
@@ -46,7 +56,7 @@
       "_chunk-f4b53398.js"
     ],
     "css": [
-      "assets/_default.page.client.3b3bae27.css"
+      "assets/_default.page.client.d2782337.css"
     ]
   },
   "pages/tri-state-camera/index.page.tsx": {
@@ -62,14 +72,15 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.cd960053.js",
+    "file": "assets/entry-client-routing.151a7802.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-98365cd5.js"
+      "_chunk-54ed6f8b.js"
     ],
     "dynamicImports": [
       "pages/index.page.mdx",
+      "pages/iterative-design.page.mdx",
       "pages/me.page.mdx",
       "pages/personas-storyboarding.page.mdx",
       "pages/responsive-redesign.page.mdx",
@@ -78,14 +89,15 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.3dbb7b9d.js",
+    "file": "assets/entry-server-routing.44d81170.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-98365cd5.js"
+      "_chunk-54ed6f8b.js"
     ],
     "dynamicImports": [
       "pages/index.page.mdx",
+      "pages/iterative-design.page.mdx",
       "pages/me.page.mdx",
       "pages/personas-storyboarding.page.mdx",
       "pages/responsive-redesign.page.mdx",
@@ -102,15 +114,15 @@
       "_chunk-f4b53398.js"
     ]
   },
-  "_chunk-98365cd5.js": {
-    "file": "assets/chunk-98365cd5.js"
-  },
-  "renderer/_default.page.client.css": {
-    "file": "assets/_default.page.client.3b3bae27.css",
-    "src": "renderer/_default.page.client.css"
+  "_chunk-54ed6f8b.js": {
+    "file": "assets/chunk-54ed6f8b.js"
   },
   "pages/tri-state-camera/index.page.css": {
     "file": "assets/index.page.b8140cbb.css",
     "src": "pages/tri-state-camera/index.page.css"
+  },
+  "renderer/_default.page.client.css": {
+    "file": "assets/_default.page.client.d2782337.css",
+    "src": "renderer/_default.page.client.css"
   }
 }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head><link rel="stylesheet" type="text/css" href="/assets/_default.page.client.d2782337.css">
+        <meta charset="UTF-8" />
+        <title>Iterative Design</title>
+        <meta name="description" content="This site was built as part of an assignment for Brown CSCI 1300." />
+        <meta name="keywords" content="UI, UX, CS 1300, CSCI 1300, Brown University, Providence" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
+      <body>
+        <div id="root"><div id="page"><main>
+<!-- -->
+<h1 id="iterative-design"><a href="#iterative-design">Iterative Design</a></h1>
+<h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+<p>To practice iterative design, our team of 4 created a prototype <strong>tablet app</strong> for <a href="https://heptabase.com/" target="_blank" rel="noopener noreferrer"><strong>Heptabase</strong></a>, a <strong>visual note-taking tool</strong> that helps you learn <strong>complex topics</strong>.</p>
+<h2 id="the-problem"><a href="#the-problem">The Problem</a></h2>
+<p>We attempted to solve the same problem that Heptabase&#x27;s developers were trying to solve, based only on their <a href="https://www.ycombinator.com/companies/heptabase" target="_blank" rel="noopener noreferrer">description</a> on YCombinator. This left us with <strong>three success criteria</strong>:</p>
+<ol>
+<li>Our solution must involve putting notes on whiteboards;</li>
+<li>It must also allow users to search through their notes to support visual recall; and</li>
+<li>It should ultimately support the learning of complex topics.</li>
+</ol>
+<h2 id="ideation"><a href="#ideation">Ideation</a></h2>
+<p>To kickstart our design process, we drew up several <strong>sketches</strong> for potential interfaces. In these, we explored a few <strong>design alternatives</strong>:</p>
+<ul>
+<li>We <strong>centered</strong> our <strong>user flows</strong> around either a home screen, a files page, or a whiteboard;</li>
+<li>We considered different <strong>primary screen orientations</strong>;</li>
+<li>We varied <strong>tool</strong> and <strong>menu placement</strong>, between having toolbars on page margins, buttons that reveal slide-out menus, and icons on notes themselves; and</li>
+<li>We laid out our <strong>file views</strong> differently (grids/lists, with/without thumbnails, etc.).</li>
+</ul>
+<figure class="image-wrapper"><div class="image-grid" style="--target-width:150%;grid-template-columns:minmax(0, 0.5136363636363637fr) minmax(0, 0.4681818181818182fr) minmax(0, 0.7706013363028953fr) minmax(0, 0.5142045454545454fr);--border:1px solid var(--edge-color)"><a href="/iterative-design/sketch-1.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/sketch-1.png" alt="TODO"/></a><a href="/iterative-design/sketch-2.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/sketch-2.png" alt="TODO"/></a><a href="/iterative-design/sketch-3.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/sketch-3.png" alt="TODO"/></a><a href="/iterative-design/sketch-4.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/sketch-4.png" alt="TODO"/></a></div><figcaption><p><strong>Figure 1:</strong> Our sketches. Click on any image to open it in a new tab.</p></figcaption></figure>
+<p>We then <strong>distilled</strong> our sketches into a number of key features—ones which we felt would allow our ideal note-taking app to better support user learning:</p>
+<ol>
+<li><strong>Multi-modal user input</strong>
+<ul>
+<li>Our app should support both <strong><em>free-hand writing/drawing</em></strong> and <strong><em>typed text</em></strong>, as users absorb content most effectively through different mediums.</li>
+<li>It should also provide a way to <strong><em>quickly jot down notes</em></strong> with similar levels of flexibility, so that important information isn&#x27;t missed due to UI inefficiencies.</li>
+</ul>
+</li>
+<li><strong>Flexible organization</strong>
+<ul>
+<li>The folder system should be as <strong><em>unopinionated</em></strong> as possible, to prevent constraining the user to a certain way of organizing (like OneNote does, with its pages/sections).</li>
+<li>There should also be ways to <strong><em>side-step bad organization</em></strong>, e.g. <em>search</em>, <em>quick access</em>.</li>
+</ul>
+</li>
+</ol>
+<p>Using <a href="https://balsamiq.com" target="_blank" rel="noopener noreferrer">Balsamiq</a>, we then further refined our sketches and ideas into <strong>wireframes</strong>:</p>
+<figure class="image-wrapper"><div class="image-grid" style="--target-width:150%"><a href="/iterative-design/wireframe-login.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/wireframe-login.png" alt="TODO"/></a><a href="/iterative-design/wireframe-main.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/wireframe-main.png" alt="TODO"/></a><a href="/iterative-design/wireframe-files.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/wireframe-files.png" alt="TODO"/></a><a href="/iterative-design/wireframe-search.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/wireframe-search.png" alt="TODO"/></a><a href="/iterative-design/wireframe-napkin.png" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/wireframe-napkin.png" alt="TODO"/></a></div><figcaption><p><strong>Figure 2:</strong> Our wireframes.</p></figcaption></figure>
+<h2 id="mockup-critique--iteration"><a href="#mockup-critique--iteration">Mockup, Critique, &amp; Iteration</a></h2>
+<p>Next, we developed an interactive, high-fidelity prototype in <a href="https://www.figma.com" target="_blank" rel="noopener noreferrer">Figma</a>. This would allow</p>
+<p>This was the basis ... critique with an industry/UX professional</p>
+<p>From the critique, we received feedback regarding the following...:</p>
+<ol>
+<li>
+<p><strong>Expectation about a &quot;home page&quot;</strong></p>
+<ul>
+<li>The user should not be sent to a whiteboard right after login</li>
+<li>There lacks a &quot;home page&quot; from which all files could be accessed</li>
+<li>The &quot;full screen&quot; button at the top right corner of the files sidebar does not effectively communicate which page it would bring the user</li>
+<li>The file full screen felt like they were going into a deeper menu</li>
+<li>There should be an icon that takes people to the home screen</li>
+</ul>
+</li>
+<li>
+<p><strong>Learnability of the snippets tool</strong></p>
+<ul>
+<li>The functionality of the bottom right button is unclear</li>
+</ul>
+</li>
+<li>
+<p><strong>Interactivity of Prototype</strong></p>
+<ul>
+<li>The prototype does not capture &quot;messy&quot; states<!-- -->
+<ul>
+<li>E.g. how files with too-long names will be displayed</li>
+<li>E.g. how the files page might look like when there are many files</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="searching"><a href="#searching"><strong>Searching</strong></a></h2>
+<ul>
+<li>It is Unclear what exactly the search bar searches for</li>
+</ul>
+</li>
+<li>
+<p><strong>Adding and Removing Folders</strong></p>
+<blockquote>
+<p>Which submission convinced you it better implemented interaction principles (interaction, navigation, hierarchy)?</p>
+</blockquote>
+</li>
+</ol>
+<figure class="image-wrapper"><div class="image-grid" style="--target-width:150%"><a href="/iterative-design/flow-navigate.gif" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/flow-navigate.gif" alt="TODO"/></a><a href="/iterative-design/flow-search.gif" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/flow-search.gif" alt="TODO"/></a><a href="/iterative-design/flow-whiteboard.gif" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/flow-whiteboard.gif" alt="TODO"/></a><a href="/iterative-design/flow-snippet.gif" target="_blank" rel="noopener noreferrer"><img src="/iterative-design/flow-snippet.gif" alt="TODO"/></a></div><figcaption><p><strong>Figure ???:</strong> Gif showing the certain user flows... or some other caption you can come up with.</p></figcaption></figure>
+<!-- -->
+<h2 id="user-testing"><a href="#user-testing">User Testing</a></h2>
+<blockquote>
+<p>Which prototype do you feel addressed feedback from the critiques more thoughtfully?</p>
+</blockquote>
+<blockquote>
+<p>Which submission&#x27;s user testing experiment better explored the interface&#x27;s intended functionality, and more comprehensively defined the steps?</p>
+</blockquote>
+<p>We sent our prototype to <a href="https://usertesting.com" target="_blank" rel="noopener noreferrer">UserTesting.com</a> to obtain feedback from users outside of the Brown Community. The recordings of the users&#x27; test results can be found below.</p>
+<ul>
+<li><a href="https://app.usertesting.com/v/8ac2d78a-ccea-4c51-8e0a-7e9f0b905422?encrypted_video_handle=baba58db-d6d1-4d21-af1c-b63fddc98d6c#!/tasks&amp;shared_via=link" target="_blank" rel="noopener noreferrer">User 1</a></li>
+<li><a href="https://app.usertesting.com/v/77bae5ed-7738-459c-89b6-30a0947603ae?encrypted_video_handle=5203ce27-3ffc-4f36-9898-cab8daffb2f5#!/tasks&amp;shared_via=link" target="_blank" rel="noopener noreferrer">User 2</a></li>
+<li><a href="https://app.usertesting.com/v/4147a9b7-c316-4055-ae8f-eac2792a7a10?encrypted_video_handle=e1e142ce-0e0a-420c-827c-063238b1c26d#!/tasks&amp;shared_via=link" target="_blank" rel="noopener noreferrer">User 3</a></li>
+</ul>
+<p>For each user, we provided a brief background about what Figma is, and how to interact with the prototype. Because Heptabase is a creative design interface with numerous users to complete the following 3 tasks:</p>
+<ol>
+<li>Find the “Demo Whiteboard”, and add a textbox to the top left corner of the whiteboard.<!-- -->
+<ul>
+<li>All users completed this task with ease- they navigated the homepage and selected the text icon. One user was uncertain if creating text is different from a textbox.</li>
+</ul>
+</li>
+<li>You remember that you took notes on a specific term several weeks ago and want to review them. Use the Search functionality to search for the term &quot;Lorem Ipsum.&quot;<!-- -->
+<ul>
+<li>All users completed this task, finding the search icon quickly and with no hesitation.</li>
+</ul>
+</li>
+<li>You have a brilliant idea that you want to write down immediately without creating a new whiteboard. Create and save a new Snippet to record your thoughts.<!-- -->
+<ul>
+<li>None of the users knew what a snippet would be. One user experimentally identified the snippet icon, while the other two users returned to the home page and attempted to add a snippet from there. Our prototype only implemented the snippet icon, and not from the home page.</li>
+</ul>
+</li>
+</ol>
+<p>In general, users found the app design to be intuitive, clean, and easy to navigate. Users did not spend much time on the homepage or navigating the toolbar, indicating those functions are clear.
+Creating a snippet was the most difficult task to perform because many users did not know what a snippet is, nor its relation to a whiteboard. This aligns with our expectations. Our design of a snippet is a novel concept, from taking a quick note to later dragging it into a whiteboard. We did not expect a new user to fully understand its functionality.</p>
+<p>Based on the results we received from user testing, our design for a future iteration would be incorporating a video demo within the application to provide first time users with more clarity. We plan to make the snippet icon bigger and more noticeable, to draw the attention of new users.</p>
+<h2 id="final-mockup"><a href="#final-mockup">Final Mockup</a></h2>
+<blockquote>
+<p>Interact with the final hifi mockups. Which mockup better achieves the original goals of the startup?</p>
+<p>i.e. we link to it, then talk about how we achieve the goals of the startup</p>
+</blockquote>
+<h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
+<hr/>
+<p><a href="#page">Back to top</a></p></main></div></div>
+      <script id="vite-plugin-ssr_pageContext" type="application/json">{"pageContext":{"_pageId":"/pages/iterative-design","pageProps":"!undefined"}}</script><script type="module" src="/assets/entry-client-routing.151a7802.js" async></script><link rel="modulepreload" as="script" type="text/javascript" href="/assets/pages/iterative-design.page.a61b8447.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/chunk-f4b53398.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/chunk-f2b8c439.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/renderer/_default.page.client.ee4c0efa.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/entry-client-routing.151a7802.js"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/chunk-54ed6f8b.js"></body>
+    </html>
