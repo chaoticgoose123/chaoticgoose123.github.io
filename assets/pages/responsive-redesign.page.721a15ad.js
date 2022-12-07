@@ -1,5 +1,6 @@
-import{j as i,a as n}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const a={title:"Responsive Redesign"};function s(t){const e=Object.assign({main:"main",h1:"h1",a:"a",h2:"h2",p:"p",strong:"strong",ol:"ol",li:"li",ul:"ul",code:"code",em:"em",h3:"h3",hr:"hr"},t.components);return n(e.main,{children:[`
+import{j as i,a as n}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const a={title:"Responsive Redesign"};function s(t){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",ol:"ol",li:"li",ul:"ul",code:"code",em:"em",h3:"h3",hr:"hr"},t.components);return n(e.main,{children:[`
 `,`
+`,i(e.p,{children:i(e.a,{href:"/",children:"< Back to home"})}),`
 `,i(e.h1,{id:"responsive-redesign",children:i(e.a,{href:"#responsive-redesign",children:"Responsive Redesign"})}),`
 `,i(e.h2,{id:"introduction",children:i(e.a,{href:"#introduction",children:"Introduction"})}),`
 `,n(e.p,{children:["When ",i(e.strong,{children:"redesigning"})," a website, it's often useful to begin with a critical ",i(e.strong,{children:"analysis"})," of its current design. We can then use our findings to make targeted and tangible improvements, by iterating on ",i(e.strong,{children:"prototypes"})," that directly address its flaws."]}),`

@@ -1,5 +1,6 @@
-import{j as n,a as t}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const l={title:"Iterative Design"};function o(i){const e=Object.assign({main:"main",h1:"h1",a:"a",h2:"h2",p:"p",strong:"strong",ol:"ol",li:"li",ul:"ul",em:"em",blockquote:"blockquote",hr:"hr"},i.components);return t(e.main,{children:[`
+import{j as n,a as t}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const l={title:"Iterative Design"};function o(i){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",ol:"ol",li:"li",ul:"ul",em:"em",blockquote:"blockquote",hr:"hr"},i.components);return t(e.main,{children:[`
 `,`
+`,n(e.p,{children:n(e.a,{href:"/",children:"< Back to home"})}),`
 `,n(e.h1,{id:"iterative-design",children:n(e.a,{href:"#iterative-design",children:"Iterative Design"})}),`
 `,n(e.h2,{id:"introduction",children:n(e.a,{href:"#introduction",children:"Introduction"})}),`
 `,t(e.p,{children:["To practice iterative design, our team of 4 created a prototype ",n(e.strong,{children:"tablet app"})," for ",n(e.a,{href:"https://heptabase.com/",target:"_blank",rel:"noopener noreferrer",children:n(e.strong,{children:"Heptabase"})}),", a ",n(e.strong,{children:"visual note-taking tool"})," that helps you learn ",n(e.strong,{children:"complex topics"}),"."]}),`

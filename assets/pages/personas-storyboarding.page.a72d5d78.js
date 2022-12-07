@@ -1,10 +1,8 @@
-import{j as n,a as i}from"../chunk-f4b53398.js";import{I as s}from"../chunk-f2b8c439.js";const d={title:"Personas & Storyboarding"};function t(r){const e=Object.assign({main:"main",h1:"h1",a:"a",h2:"h2",blockquote:"blockquote",p:"p",em:"em",strong:"strong",ul:"ul",li:"li",ol:"ol",code:"code",h3:"h3",hr:"hr"},r.components);return i(e.main,{children:[`
+import{j as n,a as i}from"../chunk-f4b53398.js";import{I as s}from"../chunk-f2b8c439.js";const d={title:"Personas & Storyboarding"};function t(r){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",em:"em",ul:"ul",li:"li",ol:"ol",code:"code",h3:"h3",hr:"hr"},r.components);return i(e.main,{children:[`
 `,`
+`,n(e.p,{children:n(e.a,{href:"/",children:"< Back to home"})}),`
 `,n(e.h1,{id:"personas--storyboarding",children:n(e.a,{href:"#personas--storyboarding",children:"Personas & Storyboarding"})}),`
 `,n(e.h2,{id:"introduction",children:n(e.a,{href:"#introduction",children:"Introduction"})}),`
-`,i(e.blockquote,{children:[`
-`,n(e.p,{children:n(e.em,{children:"This writeup was completed as part of an assignment on gathering real users' experiences with interfaces."})}),`
-`]}),`
 `,i(e.p,{children:["To explore the use of ",n(e.strong,{children:"personas"})," and ",n(e.strong,{children:"storyboarding"})," in UX research, I chose to investigate how teaching assistants (TAs) use Gradescope for grading."]}),`
 `,n(e.h2,{id:"the-interface",children:n(e.a,{href:"#the-interface",children:"The Interface"})}),`
 `,i(e.p,{children:[n(e.a,{href:"https://en.wikipedia.org/wiki/Gradescope",target:"_blank",rel:"noopener noreferrer",children:"Gradescope"})," is a publicly-available, web-based grading tool used to administer coursework. It allows instructors to set up assignments\u2014comprising questions and rubrics with point values\u2014and collect student submissions. TAs can then view and grade these submissions."]}),`
