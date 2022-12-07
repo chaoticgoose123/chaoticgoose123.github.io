@@ -1,6 +1,6 @@
 {
   "pages/index.page.mdx": {
-    "file": "assets/pages/index.page.c15f84ac.js",
+    "file": "assets/pages/index.page.6bc82b30.js",
     "src": "pages/index.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -72,7 +72,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.c72e0383.js",
+    "file": "assets/entry-client-routing.34de5d3a.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -89,7 +89,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.226c76cf.js",
+    "file": "assets/entry-server-routing.27a09e34.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [

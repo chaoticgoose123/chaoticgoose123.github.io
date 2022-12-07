@@ -3,7 +3,7 @@ import{j as n,a as i}from"../chunk-f4b53398.js";const s={title:"Home"};function 
 `,i(e.p,{children:["This page functions as an index to my submissions for ",n(e.a,{href:"https://cs.brown.edu/courses/info/csci1300/",target:"_blank",rel:"noopener noreferrer",children:"CSCI 1300"}),", Fall 2022."]}),`
 `,i(e.ol,{children:[`
 `,n(e.li,{children:n(e.a,{href:"/personas-storyboarding",children:"Personas & Storyboarding"})}),`
-`,n(e.li,{children:n(e.a,{href:"responsive-redesign",children:"Responsive Redesign"})}),`
+`,n(e.li,{children:n(e.a,{href:"/responsive-redesign",children:"Responsive Redesign"})}),`
 `,n(e.li,{children:n(e.a,{href:"/iterative-design",children:"Iterative Design & Evaluation"})}),`
 `]}),`
 `,n(e.hr,{}),`
