@@ -1,4 +1,4 @@
-import{j as i,a as n}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const a={title:"Responsive Redesign"};function s(t){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",ol:"ol",li:"li",ul:"ul",code:"code",em:"em",h3:"h3",hr:"hr"},t.components);return n(e.main,{children:[`
+import{j as i,a as n}from"../chunk-f4b53398.js";import{I as r}from"../chunk-10b38355.js";const a={title:"Responsive Redesign"};function s(t){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",ol:"ol",li:"li",ul:"ul",code:"code",em:"em",h3:"h3",hr:"hr"},t.components);return n(e.main,{children:[`
 `,`
 `,i(e.p,{children:i(e.a,{href:"/",children:"< Back to home"})}),`
 `,i(e.h1,{id:"responsive-redesign",children:i(e.a,{href:"#responsive-redesign",children:"Responsive Redesign"})}),`

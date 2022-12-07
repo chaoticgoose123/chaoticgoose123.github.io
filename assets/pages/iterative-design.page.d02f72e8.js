@@ -1,4 +1,4 @@
-import{j as n,a as t}from"../chunk-f4b53398.js";import{I as r}from"../chunk-f2b8c439.js";const l={title:"Iterative Design"};function o(i){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",ol:"ol",li:"li",ul:"ul",em:"em",blockquote:"blockquote",hr:"hr"},i.components);return t(e.main,{children:[`
+import{j as n,a as t}from"../chunk-f4b53398.js";import{I as r}from"../chunk-10b38355.js";const l={title:"Iterative Design"};function o(i){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",ol:"ol",li:"li",ul:"ul",em:"em",blockquote:"blockquote",hr:"hr"},i.components);return t(e.main,{children:[`
 `,`
 `,n(e.p,{children:n(e.a,{href:"/",children:"< Back to home"})}),`
 `,n(e.h1,{id:"iterative-design",children:n(e.a,{href:"#iterative-design",children:"Iterative Design"})}),`
