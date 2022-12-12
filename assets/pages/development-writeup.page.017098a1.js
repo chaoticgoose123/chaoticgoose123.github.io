@@ -1,0 +1,15 @@
+import{j as n,a as i}from"../chunk-f4b53398.js";import{I as r}from"../chunk-10b38355.js";const c={title:"Interface Development"};function o(t){const e=Object.assign({main:"main",p:"p",a:"a",h1:"h1",h2:"h2",strong:"strong",code:"code",hr:"hr"},t.components);return i(e.main,{children:[`
+`,`
+`,n(e.p,{children:n(e.a,{href:"/",children:"< Back to home"})}),`
+`,n(e.h1,{id:"interface-development",children:n(e.a,{href:"#interface-development",children:"Interface Development"})}),`
+`,n(e.h2,{id:"introduction",children:n(e.a,{href:"#introduction",children:"Introduction"})}),`
+`,i(e.p,{children:["To gain more experience with React, I developed a simple app that allows users to ",n(e.strong,{children:"sort"})," and ",n(e.strong,{children:"filter"})," a list of items, then add items to a ",n(e.strong,{children:"collection"}),". You can play with the result ",n(e.a,{href:"https://chaoticgoose123.github.io/development",target:"_blank",rel:"noopener noreferrer",children:"here"}),"."]}),`
+`,n(r,{images:[{src:"/development-writeup/final-ui.png",alt:"A desktop screenshot of the React app I made."}],targetWidth:"125%",children:i(e.p,{children:[n(e.strong,{children:"Figure 1:"})," A desktop screenshot of the React app I made."]})}),`
+`,n(e.h2,{id:"design-considerations",children:n(e.a,{href:"#design-considerations",children:"Design Considerations"})}),`
+`,n(e.p,{children:"Besides the basic functionality described above, there were a few other aspects of the web app's design and implementation that I took into consideration:"}),`
+`,i(e.p,{children:["For starters, I ensured that the app was ",n(e.strong,{children:"accessible"})," to assistive-device users. This meant using semantic HTML and default ",n(e.code,{children:"<input>"})," elements where possible. I then evaluated the site with ",n(e.strong,{children:"WebAIM's WAVE accessibility tool"}),", and tested its functionality and ease of navigation using the ",n(e.strong,{children:"VoiceOver"})," screen reader."]}),`
+`,i(e.p,{children:["Another important consideration was that of ",n(e.strong,{children:"performance"}),". React apps can be painfully slow when implemented poorly. Thus, I challenged myself to handle a list of >150 items, forcing me to look into ways to optimize my app. To spare you the details, two changes I made led to the biggest performance improvements: (1) eliminating redundant ",n(e.code,{children:"useEffect()"})," calls and re-renders, and (2) toggling ",n(e.code,{children:"display"})," for list items, instead of using conditional rendering."]}),`
+`,n(e.h2,{id:"conclusion",children:n(e.a,{href:"#conclusion",children:"Conclusion"})}),`
+`,n(e.p,{children:"Although highly contrived, working on this mini-project deepened my familiarity with React and increased my appreciation of the amount of work it takes to translate designs into fully-functional interfaces."}),`
+`,n(e.hr,{}),`
+`,n(e.p,{children:n(e.a,{href:"#page",children:"Back to top"})})]})}function d(t={}){const{wrapper:e}=t.components||{};return e?n(e,Object.assign({},t,{children:n(o,t)})):o(t)}export{d as default,c as documentProps};

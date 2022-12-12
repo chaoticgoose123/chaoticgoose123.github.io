@@ -1,6 +1,6 @@
 {
   "pages/development-writeup.page.mdx": {
-    "file": "assets/pages/development-writeup.page.408b7592.js",
+    "file": "assets/pages/development-writeup.page.017098a1.js",
     "src": "pages/development-writeup.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -10,13 +10,12 @@
     ]
   },
   "pages/index.page.mdx": {
-    "file": "assets/pages/index.page.6e4a161c.js",
+    "file": "assets/pages/index.page.339514ac.js",
     "src": "pages/index.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-f4b53398.js",
-      "_chunk-10b38355.js"
+      "_chunk-f4b53398.js"
     ]
   },
   "pages/iterative-design.page.mdx": {
@@ -40,7 +39,7 @@
     ]
   },
   "pages/responsive-redesign.page.mdx": {
-    "file": "assets/pages/responsive-redesign.page.0c1a5553.js",
+    "file": "assets/pages/responsive-redesign.page.69a45791.js",
     "src": "pages/responsive-redesign.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -58,7 +57,7 @@
       "_chunk-f4b53398.js"
     ],
     "css": [
-      "assets/_default.page.client.ab463259.css"
+      "assets/_default.page.client.3e0341fd.css"
     ]
   },
   "pages/tri-state-camera/index.page.tsx": {
@@ -74,7 +73,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.dfa50ff0.js",
+    "file": "assets/entry-client-routing.f052d4e0.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -91,7 +90,7 @@
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.fee2753b.js",
+    "file": "assets/entry-server-routing.b69bf589.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
@@ -119,12 +118,12 @@
   "_chunk-17b3a120.js": {
     "file": "assets/chunk-17b3a120.js"
   },
-  "renderer/_default.page.client.css": {
-    "file": "assets/_default.page.client.ab463259.css",
-    "src": "renderer/_default.page.client.css"
-  },
   "pages/tri-state-camera/index.page.css": {
     "file": "assets/index.page.b20a07f1.css",
     "src": "pages/tri-state-camera/index.page.css"
+  },
+  "renderer/_default.page.client.css": {
+    "file": "assets/_default.page.client.3e0341fd.css",
+    "src": "renderer/_default.page.client.css"
   }
 }
