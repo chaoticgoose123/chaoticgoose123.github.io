@@ -1,51 +1,11 @@
 {
-  "pages/development-writeup.page.mdx": {
-    "file": "assets/pages/development-writeup.page.017098a1.js",
-    "src": "pages/development-writeup.page.mdx",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_chunk-f4b53398.js",
-      "_chunk-10b38355.js"
-    ]
-  },
   "pages/index.page.mdx": {
-    "file": "assets/pages/index.page.339514ac.js",
+    "file": "assets/pages/index.page.c71a5d07.js",
     "src": "pages/index.page.mdx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_chunk-f4b53398.js"
-    ]
-  },
-  "pages/iterative-design.page.mdx": {
-    "file": "assets/pages/iterative-design.page.d02f72e8.js",
-    "src": "pages/iterative-design.page.mdx",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_chunk-f4b53398.js",
-      "_chunk-10b38355.js"
-    ]
-  },
-  "pages/personas-storyboarding.page.mdx": {
-    "file": "assets/pages/personas-storyboarding.page.368f077f.js",
-    "src": "pages/personas-storyboarding.page.mdx",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_chunk-f4b53398.js",
-      "_chunk-10b38355.js"
-    ]
-  },
-  "pages/responsive-redesign.page.mdx": {
-    "file": "assets/pages/responsive-redesign.page.69a45791.js",
-    "src": "pages/responsive-redesign.page.mdx",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_chunk-f4b53398.js",
-      "_chunk-10b38355.js"
     ]
   },
   "renderer/_default.page.client.tsx": {
@@ -60,67 +20,35 @@
       "assets/_default.page.client.3e0341fd.css"
     ]
   },
-  "pages/tri-state-camera/index.page.tsx": {
-    "file": "assets/pages/tri-state-camera/index.page.43047a6d.js",
-    "src": "pages/tri-state-camera/index.page.tsx",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_chunk-f4b53398.js"
-    ],
-    "css": [
-      "assets/index.page.b20a07f1.css"
-    ]
-  },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.f052d4e0.js",
+    "file": "assets/entry-client-routing.435e1ccb.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-17b3a120.js"
+      "_chunk-a3bb59bf.js"
     ],
     "dynamicImports": [
-      "pages/development-writeup.page.mdx",
       "pages/index.page.mdx",
-      "pages/iterative-design.page.mdx",
-      "pages/personas-storyboarding.page.mdx",
-      "pages/responsive-redesign.page.mdx",
-      "pages/tri-state-camera/index.page.tsx",
       "renderer/_default.page.client.tsx"
     ]
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.b69bf589.js",
+    "file": "assets/entry-server-routing.62df0809.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-17b3a120.js"
+      "_chunk-a3bb59bf.js"
     ],
     "dynamicImports": [
-      "pages/development-writeup.page.mdx",
       "pages/index.page.mdx",
-      "pages/iterative-design.page.mdx",
-      "pages/personas-storyboarding.page.mdx",
-      "pages/responsive-redesign.page.mdx",
-      "pages/tri-state-camera/index.page.tsx",
       "renderer/_default.page.client.tsx"
     ]
   },
   "_chunk-f4b53398.js": {
     "file": "assets/chunk-f4b53398.js"
   },
-  "_chunk-10b38355.js": {
-    "file": "assets/chunk-10b38355.js",
-    "imports": [
-      "_chunk-f4b53398.js"
-    ]
-  },
-  "_chunk-17b3a120.js": {
-    "file": "assets/chunk-17b3a120.js"
-  },
-  "pages/tri-state-camera/index.page.css": {
-    "file": "assets/index.page.b20a07f1.css",
-    "src": "pages/tri-state-camera/index.page.css"
+  "_chunk-a3bb59bf.js": {
+    "file": "assets/chunk-a3bb59bf.js"
   },
   "renderer/_default.page.client.css": {
     "file": "assets/_default.page.client.3e0341fd.css",
